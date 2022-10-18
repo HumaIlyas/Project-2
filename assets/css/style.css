@@ -37,7 +37,7 @@ body {
 
 .score-area {
     width: 60%;
-    margin: 5px auto;
+    margin: 2px auto;
     font-size: 1.2rem;
 } 
 
@@ -81,7 +81,7 @@ span {
 
 /* result and messages area */
 .message {
-    margin-top: 2rem;
+    margin-top: 1rem;
     text-align: center;
     color: #722635;
 }
@@ -98,7 +98,7 @@ span {
 #result {
   width: 12rem;
   padding: 1rem 0;
-  margin: 2rem auto;
+  margin: 3rem auto;
   font-weight: 700;
   letter-spacing: 0.7px;
   text-transform: uppercase;
@@ -107,7 +107,7 @@ span {
 
 /* popup starts */
 .popup-text {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 2px;

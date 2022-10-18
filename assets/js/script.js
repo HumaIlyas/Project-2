@@ -62,14 +62,14 @@ function clicked(input) {
             result.innerText = `You Won!`;
             result.style.cssText = "background-color: rgb(128, 247, 128)";
             player_score++;
-            document.getElementById("player_score").innerHTML = player_score
+            document.getElementById("player_score").innerHTML = player_score;
             console.log("PS: ", player_score);
             break;
         case 'lose':
             result.innerText = `Computer Won!`;
             result.style.cssText = "background-color: rgb(240, 124, 124)";
             comp_score++;
-            document.getElementById("comp_score").innerHTML = comp_score
+            document.getElementById("comp_score").innerHTML = comp_score;
             console.log("CS: ", comp_score);
             break;
         case 'tie':
@@ -77,5 +77,24 @@ function clicked(input) {
             result.style.cssText = "background-color: rgb(168, 161, 161)";
             break;  
     }
+    // To check player wins and computer wins after some turns
+    if (player_score == 20) {
+        document.querySelector(".popup-text").innerHTML = 'You <span>Won</span> the Match!';
+        resetScore();
+    } else if (comp_score == 20) {
+        document.querySelector(".popup-text").innerHTML = 'Computer <span>Won</span> the Match!';
+        resetScore();
+    }
+}
+
+let resetScore = () => {
+
+    setTimeout(() => {
+        player_score = 0;
+        comp_score = 0;
+        document.getElementById("player_score").innerHTML = player_score;
+        document.getElementById("comp_score").innerHTML = comp_score;
+        document.querySelector(".popup-text").innerHTML = "";
+    }, 1500);
 }
 
