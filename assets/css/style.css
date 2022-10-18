@@ -63,6 +63,7 @@ span {
 .move {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #226474;
 }
 
 .choices-area button {
@@ -107,6 +108,8 @@ span {
 /* popup starts */
 .popup-text {
     margin-top: 15px;
-    font-size: 150px;
+    font-size: 1.5rem;
+    font-weight: 700;
     letter-spacing: 2px;
+    color: #722635;
 }
