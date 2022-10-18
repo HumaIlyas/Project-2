@@ -1,0 +1,112 @@
+@import url('https://fonts.google.com/');
+
+/* body */
+body {
+    background-color: white;
+    font-family: "Lato", sans-serif;
+    color: #445361;
+    text-align: center;
+}
+
+/* --------- Heading */
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 50px;
+    color: #226474;
+}
+
+.logo {
+    height: 60px;
+    padding-right: 5px;
+}
+
+/* game area */
+.game-area {
+    box-sizing: border-box;
+    background-color: #efe6e7;
+    width: 85%;
+    height: 70vh;
+    max-height: 600px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+.score-area {
+    width: 60%;
+    margin: 5px auto;
+    font-size: 1.2rem;
+} 
+
+.playerScore, .compScore {
+    display: inline-block;
+    padding: 5px;
+    color: #722635;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* choices area */
+.choices-area {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.move {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.choices-area button {
+    background-color: #226474;
+    color: white;
+    border: none;
+    height: 6.3rem;
+    width: 6.3rem;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 4rem;
+}
+
+/* result and messages area */
+.message {
+    margin-top: 3rem;
+    text-align: center;
+    color: #722635;
+}
+
+.comp-choose, .player-choose {
+    transition: all 1.5s;
+}
+
+#playerChoice, #compChoice {
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+  
+#result {
+  width: 10rem;
+  padding: 1rem 0;
+  margin: 2.5rem auto;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  border-radius: 10%;
+}
+
+/* popup starts */
+.popup-text {
+    margin-top: 15px;
+    font-size: 150px;
+    letter-spacing: 2px;
+}
