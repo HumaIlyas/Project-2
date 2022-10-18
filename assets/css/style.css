@@ -1,3 +1,9 @@
+/* Media queries */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
 @import url('https://fonts.google.com/');
 
 /* body */
@@ -6,6 +12,7 @@ body {
     font-family: "Lato", sans-serif;
     color: #445361;
     text-align: center;
+    overflow-x: hidden;
 }
 
 /* --------- Heading */
@@ -113,3 +120,4 @@ span {
     letter-spacing: 2px;
     color: #722635;
 }
+
