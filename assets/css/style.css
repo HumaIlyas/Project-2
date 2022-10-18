@@ -80,24 +80,24 @@ span {
 
 /* result and messages area */
 .message {
-    margin-top: 3rem;
+    margin-top: 2rem;
     text-align: center;
     color: #722635;
 }
 
-.comp-choose, .player-choose {
+.comp-chose, .player-chose {
     transition: all 1.5s;
 }
 
-#playerChoice, #compChoice {
+#compChoice, #playerChoice {
     font-weight: 400;
     margin-bottom: 0.5rem;
 }
   
 #result {
-  width: 10rem;
+  width: 12rem;
   padding: 1rem 0;
-  margin: 2.5rem auto;
+  margin: 2rem auto;
   font-weight: 700;
   letter-spacing: 0.7px;
   text-transform: uppercase;
