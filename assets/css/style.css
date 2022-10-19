@@ -17,7 +17,7 @@ body {
     font-family: "Lato", sans-serif;
     color: #445361;
     text-align: center;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 /* logo and heading */
