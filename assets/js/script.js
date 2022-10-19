@@ -1,8 +1,11 @@
-// show result of the game 
+// Declare variables for DOM elements 
 let result = document.getElementById("result");
+
+// Declare initial score of player and computer
 let comp_score = 0;
 let player_score = 0;
 
+// Declare game conditions to win, lose and tie
 let gameConditions = {
     Rock: {
         Rock: 'tie',
@@ -41,9 +44,9 @@ let gameConditions = {
     }
 }
 
-// For the player to click the choice
+// Define a function for player to click the choice
 // To generate a random choice of the computer 
-// To display choices and show a message about the result
+// To display choices 
 
 function clicked(input) {
     let choices = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
@@ -56,6 +59,7 @@ function clicked(input) {
 
     console.log('input', input, 'comp-choice', comp_choice);
 
+    // Show the result, and a message about the result
     // Compare the computer choice with player choice and update the scores of both of them
     switch(gameConditions[comp_choice][input]) {
         case 'win':
@@ -77,7 +81,8 @@ function clicked(input) {
             result.style.cssText = "background-color: rgb(168, 161, 161)";
             break;  
     }
-    // To check player wins and computer wins after some turns
+
+    // To check player wins or computer wins after limited turns
     if (player_score == 20) {
         document.querySelector(".popup-text").innerHTML = 'You <span>Won</span> the Match!';
         resetScore();
@@ -87,6 +92,7 @@ function clicked(input) {
     }
 }
 
+// To reset the scores of player and computer after the game is over 
 let resetScore = () => {
 
     setTimeout(() => {

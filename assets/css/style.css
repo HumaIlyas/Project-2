@@ -15,17 +15,17 @@ body {
     overflow-x: hidden;
 }
 
-/* --------- Heading */
+/* logo and heading */
+.logo {
+    height: 60px;
+    padding-right: 5px;
+}
+
 .heading {
     text-align: center;
     font-size: 2rem;
     line-height: 50px;
     color: #226474;
-}
-
-.logo {
-    height: 60px;
-    padding-right: 5px;
 }
 
 /* game area */
