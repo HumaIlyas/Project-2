@@ -55,7 +55,7 @@ body {
     font-weight: 500;
 } 
 
-.playerScore, .compScore {
+.computerScore, .playerScore {
     display: inline-block;
     padding: 2px 15px 2px 15px;
     color: #722635;
@@ -101,11 +101,11 @@ span {
     color: #722635;
 }
 
-.comp-chose, .player-chose {
+.computer-chose, .player-chose {
     transition: all 1.5s;
 }
 
-#compChoice, #playerChoice {
+#computerChoice, #playerChoice {
     display: inline-block;
     padding: 1px 5px 1px 5px;
     font-size: 1.2rem;
@@ -124,7 +124,7 @@ span {
 }
 
 /* final popup message */
-.popup-text {
+.popup-message {
     width: 55%;
     box-sizing: border-box;
     border-radius: 10%;
@@ -160,7 +160,7 @@ span {
     }
 
     /* final popup message */
-    .popup-text {
+    .popup-message {
         width: 60%;
     }
 }
@@ -186,7 +186,7 @@ span {
         font-size: 1rem;
     } 
 
-    .playerScore, .compScore {
+    .computerScore, .playerScore {
         padding: 1px 12px 1px 12px;
     }
 
@@ -208,7 +208,7 @@ span {
         margin-top: 0.5rem;
     }
 
-    #compChoice, #playerChoice {
+    #computerChoice, #playerChoice {
         font-size: 1rem;
     }
     
@@ -220,7 +220,7 @@ span {
     }
 
     /* final popup message */
-    .popup-text {
+    .popup-message {
         width: 60%;
         margin: 0.6rem auto;
         font-size: 1.2rem;
@@ -255,7 +255,7 @@ span {
         font-size: 0.9rem;
     } 
 
-    .playerScore, .compScore {
+    .compScore, .playerScore {
         padding: 1px 2px 1px 2px;
     }
 
@@ -277,7 +277,7 @@ span {
         margin-top: 0.5rem;
     }
 
-    #compChoice, #playerChoice {
+    #computerChoice, #playerChoice {
         font-size: 1rem;
     }
     
@@ -289,7 +289,7 @@ span {
     }
 
     /* final popup message */
-    .popup-text {
+    .popup-message {
         width: 90%;
         font-size: 1.2rem;
         line-height: 40px;
