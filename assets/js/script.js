@@ -54,8 +54,8 @@ function clicked(input) {
     let computer_choice = choices[randomNumber];
 
     console.log(randomNumber);
-    document.getElementById("playerChoice").innerHTML = `Computer chose: <span>${computer_choice.toUpperCase()}</span>`;
-    document.getElementById("computerChoice").innerHTML = `You chose: <span>${input.toUpperCase()}</span>`;
+    document.getElementById("playerChoice").innerHTML = `Computer: <span>${computer_choice.toUpperCase()}</span>`;
+    document.getElementById("computerChoice").innerHTML = `Player: <span>${input.toUpperCase()}</span>`;
 
     console.log('input', input, 'computer-choice', computer_choice);
 
@@ -64,21 +64,21 @@ function clicked(input) {
     switch(gameConditions[computer_choice][input]) {
         case 'win':
             result.innerText = `You Won!`;
-            result.style.cssText = "background-color: rgb(128, 247, 128)";
+            result.style.cssText = "background-color: rgb(203, 246, 203)";
             player_score++;
             document.getElementById("player_score").innerHTML = player_score;
             console.log("PS: ", player_score);
             break;
         case 'lose':
             result.innerText = `Computer Won!`;
-            result.style.cssText = "background-color: rgb(240, 124, 124)";
+            result.style.cssText = "background-color: rgb(245, 192, 192)";
             computer_score++;
             document.getElementById("computer_score").innerHTML = computer_score;
             console.log("CS: ", computer_score);
             break;
         case 'tie':
             result.innerText = "It's a tie!";
-            result.style.cssText = "background-color: rgb(168, 161, 161)";
+            result.style.cssText = "background-color: rgb(208, 205, 205)";
             break;  
     }
 

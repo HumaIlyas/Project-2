@@ -13,9 +13,8 @@
 
 /* body */
 body {
-    background-color: white;
-    font-family: "Lato", sans-serif;
-    color: #445361;
+    background-color: #fcfafa;
+    font-family: lato, sans-serif;
     text-align: center;
     overflow: hidden;
 }
@@ -24,19 +23,22 @@ body {
 .logo {
     height: 60px;
     padding-right: 5px;
+    border-radius: 50%;
 }
 
 .heading {
+    font-family: Oswald, sans-serif;
     text-align: center;
     font-size: 2rem;
     line-height: 50px;
+    text-transform: capitalize;
     color: #226474;
 }
 
 /* game area */
 .game-area {
     box-sizing: border-box;
-    background-color: #efe6e7;
+    background-color: #ece4e5;
     width: 85%;
     height: 80vh;
     max-height: 600px;
@@ -120,22 +122,22 @@ span {
   font-size: 1.2rem;
   letter-spacing: 0.7px;
   text-transform: uppercase;
-  border-radius: 10%;
+  border-radius: 50%;
 }
 
 /* final popup message */
 .popup-message {
-    width: 55%;
+    width: 60%;
     box-sizing: border-box;
-    border-radius: 10%;
-    background-color: #ccdfe3;
+    border-radius: 50%;
+    background-color: #fcfafa;
     color: #226474;
     margin: 1.5rem auto;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     letter-spacing: 0.7px;
-    line-height: 50px;
+    line-height: 55px;
     position: relative;
 }
 
@@ -224,7 +226,7 @@ span {
         width: 60%;
         margin: 0.6rem auto;
         font-size: 1.2rem;
-        line-height: 40px;
+        line-height: 45px;
     }
 }
 
@@ -289,8 +291,8 @@ span {
 
     /* final popup message */
     .popup-message {
-        width: 90%;
+        width: 100%;
         font-size: 1.2rem;
-        line-height: 40px;
+        line-height: 45px;
     }
 }
