@@ -51,13 +51,12 @@ The main goal of the website user is:
 
 ### Colors
 Main colours used in the development of Rock-Paper-Scissors-Lizard-Spock:
-* font color:
-* background color: 
-* border color: 
+* font color: #226474; #722635
+* background color: #fcfafa; #ece4e5; #226474; white; rgb(203, 246, 203); rgb(245, 192, 192); rgb(208, 205, 205)
 
 ### Fonts 
 * As a main font lato and as a backup font sans-serif are used for the contents of the website.
-* As a main font Oswald and as a backup font sans-serif are used for the headings of the website.
+* As a main font Oswald and as a backup font sans-serif are used for the heading of the website.
 
 ### Images
 * Images are taken from [Google Images](https://images.google.nl/), which is credited in the [credits](#credits) section.
@@ -165,12 +164,12 @@ The website was tested across multiple virtual mobile devices and browsers.
 
 ### Final results
 * The colors and fonts chosen are easy to read and accessible on desktop. 
-<div style="margin-top: 20px; margin-bottom: 30px;">
+<div style="margin-top: 20px; margin-bottom: 40px;">
     <img src="assets/images/accessibility-desktop.jpg" alt="Accessibility on desktop">
 </div>
 
 * The colors and fonts chosen are easy to read and accessible on mobile.
-<div style="margin-top: 30px; margin-bottom: 20px;">
+<div style="margin-top: 40px; margin-bottom: 20px;">
     <img src="assets/images/accessibility-mobile.jpg" alt="Accessibility on mobile">
 </div>
 
