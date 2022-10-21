@@ -165,12 +165,12 @@ The website was tested across multiple virtual mobile devices and browsers.
 
 ### Final results
 * The colors and fonts chosen are easy to read and accessible on desktop. 
-<div style="margin-top: 20px; margin-bottom: 20px;">
+<div style="margin-top: 20px; margin-bottom: 30px;">
     <img src="assets/images/accessibility-desktop.jpg" alt="Accessibility on desktop">
 </div>
 
 * The colors and fonts chosen are easy to read and accessible on mobile.
-<div style="margin-top: 20px; margin-bottom: 20px;">
+<div style="margin-top: 30px; margin-bottom: 20px;">
     <img src="assets/images/accessibility-mobile.jpg" alt="Accessibility on mobile">
 </div>
 
