@@ -1,108 +1,221 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock-Paper-Scissors-Lizard-Spock 
+Rock-Paper-Scissors-Lizard-Spock is a game to help players to make decisions with a simple game by selecting their choices and getting a reult based on the computer choices that are truly random. The results of the game are fair than playing with ones hands becuse it has been shown that people familiar with each other are statistically more likely to tie the game.
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/different-screen-sizes.jpg" alt="Website on different screen sizes">
+</div>
 
-Welcome HumaIlyas,
+## [View live website](https://humailyas.github.io/Project-2/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+___
+# Table of contents
+- [UX](#ux)
+    - [Website owner goal](#website-owner-goal)
+    - [External user goal](#external-user-goal)
+    - [Structure of the website](#structure-of-the-website)
+    - [Surface](#surface)
+- [Features](#features)
+    - [Logo and heading](#logo-and-heading)
+    - [Game area](#game-area)
+      - [Score area](#score-area)
+      - [Choices area](#choices-area)
+      - [Result and message](#result-and-message)
+      - [Final popup message](final-popup-message)
+- [Technologies used](#technologies-used)
+- [Testing](#testing)
+    - [Code validation](#code-validation)
+    - [Functionality testing](#functionality-testing)
+    - [Compatibility testing](#compatibility-testing)
+    - [Performance testing](#performance-testing)
+    - [Issues found during site development](#issues-found-during-site-development)
+    - [Unfixed bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+___
+# UX
 
-## Gitpod Reminders
+## Website owner goal
+The main goal of the website owner is:
+* To provide a challenging game with increasing levels of difficulty to entertain online players.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## External user goal
+The main goal of the website user is:
+* To play an online game that has elements of chance.
 
-`python3 -m http.server`
+## Structure of the website
+* The design of the website is user-friendy as this is responsive on all type of devices: desktop, laptops, tablets, ipads and mobiles.
+* On all the above mentioned devices players can have a fantastic experience. 
+* All parts of the website are designed to achieve maximum player satisfaction.
 
-A blue button should appear to click: _Make Public_,
+## Surface
 
-Another blue button should appear to click: _Open Browser_.
+### Colors
+Main colours used in the development of Rock-Paper-Scissors-Lizard-Spock:
+* font color:
+* background color: 
+* border color: 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Fonts 
+* As a main font lato and as a backup font sans-serif are used for the contents of the website.
+* As a main font Oswald and as a backup font sans-serif are used for the headings of the website.
 
-A blue button should appear to click: _Make Public_,
+### Images
+* Images are taken from [Google Images](https://images.google.nl/), which is credited in the [credits](#credits) section.
 
-Another blue button should appear to click: _Open Browser_.
+### Icons
+* Icons are taken from [Font Awesome](https://fontawesome.com/), which is credited in the [credits](#credits) section.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Back to Table of contents](#table-of-contents)
 
-To log into the Heroku toolbelt CLI:
+___
+# Features
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Logo and heading
+* The logo & heading of the rock-paper-scissors-lizard-spock game is featured at the top of the page, which is easy to see by the player. 
+* The logo & heading clearly tells the player which game is to play.
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/logo-heading.jpg" alt="Logo & heading">
+</div>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Game area
+* This area will allow the player to play the rock-paper-scissors-lizard-spock game. 
+* The player will be able to easily see the message to select the icons of rock, paper, scissors, lizard or spock to start the game.
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/game-area.jpg" alt="Game area">
+</div>
 
-------
+### Score area
+This area provides the information to player about the scores that how many times the player & computer won the game. 
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/score-area.jpg" alt="Score area">
+</div>
 
-## Release History
+### Choices area
+This area will allow the player to select the icons of rock, paper, scissors, lizard or spock to play the game.
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/choices-area.jpg" alt="Choices area">
+</div>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Result and message
+This area provides the information about the choices made by player & computer, as well as the result of the current attempt.
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/result-message.jpg" alt="Result & message">
+</div>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Final popup message 
+The final popup message appears after limited number of attempts before the game is over.
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/popup-message.jpg" alt="Popup message"> 
+</div>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+[Back to Table of contents](#table-of-contents)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+___
+# Technologies used
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Different technologies were used to complete the contents of Rock-Paper-Scissors-Lizard-Spock website.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### GitHub
+* As a software hosting platform to keep project in a remote location.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Git
+* As a version-control system tracking.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Gitpod  
+* As a development hosting platform.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### HTML5
+* As a structure language.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### CSS
+* As a style language.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### JavaScript
+* As an interactivity langauage.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Font Awesome
+* As an icon library for icons used in the choices area for rock, paper, scissors, lizard & spock.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+[Back to Table of contents](#table-of-contents)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+___
+# Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Code validation
+Rock-Paper-Scissors-Lizard-Spock is validated for a code using three websites.
 
-------
+### HTML
+* No errors were found when passing through the official [W3C HTML Validator](https://validator.w3.org/)
 
-## FAQ about the uptime script
+### CSS
+* No errors were found when passing through the official [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)
 
-**Why have you added this script?**
+### JavaScript
+* No errors were found when passing through the official [JSHint JavaScript Validator](https://jshint.com/)
+ 
+## Functionality testing
+Chrome developer tools were used throughout the project for testing and solving problems with responsiveness and style issues.
+ 
+## Compatibility testing
+The website was tested across multiple virtual mobile devices and browsers.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Performance testing
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool was used to check the performance of the website.
+* A couple of changes were made to improve the performance.
 
-**How will this affect me?**
+### Final results
+* The colors and fonts chosen are easy to read and accessible on desktop. 
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/accessibility-desktop.jpg" alt="Accessibility on desktop">
+</div>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* The colors and fonts chosen are easy to read and accessible on mobile.
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/accessibility-mobile.jpg" alt="Accessibility on mobile">
+</div>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Issues found during site development
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Horizontal and vertical scroll bars
+* Horizontal & vertical scroll bars appeared on the screen.<br>
+I adjusted this issue:
+   * By adding a code "overflow: hidden" in the body.
 
-**So….?**
+## Unfixed bugs
+* No unfixed bugs
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+[Back to Table of contents](#table-of-contents)
 
-**Can I opt out?**
+___
+# Deployment
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+The website was deployed on GitHub pages. Gitpod was used as a development environment where all the changes were committed to git version control system. The push command was used in Gitpod to save changes into GitHub.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+The following steps were taken to deploy the website:
+* Open the GitHub repository, navigate to the Settings tab
+* From the source section, select the Main Branch
+* Click save and page was deployed after auto-refresh to indicate the successful deployment
 
-**Anything more?**
+## [View live website](https://humailyas.github.io/Project-2/)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+[Back to Table of contents](#table-of-contents)
 
----
+___
+# Credits
 
-Happy coding!
+To complete the contents of Rock-Paper-Scissors-Lizard-Spock website, I learned coding and collected the information from different sources.
+* Learned HTML, CSS & JavaScript coding from [Code Institute](https://learn.codeinstitute.net/)
+* Used Code Institute student template [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+* Collected information on good and bad coding practices from:
+  * [Write Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+  * [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
+
+## Content
+* The information about the game conditions was taken from [Big Bang](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+* The icons used in the choices area for rock, paper, scissors, lizard & spock were taken from [Font Awesome](https://fontawesome.com/)
+* The code to make the game conditions was taken from [Rock-Paper-Scissors-Lizard-Spock Project](https://github.com/partha7978/Rock-Paper-Scissors-Lizard-Spock)
+
+## Media
+* The image used as a Logo was taken from [Google Images](https://images.google.nl/)
+
+[Back to Table of contents](#table-of-contents)
