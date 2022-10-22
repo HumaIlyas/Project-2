@@ -53,11 +53,8 @@ function clicked(input) {
     let randomNumber = Math.trunc(Math.random() * 5);
     let computer_choice = choices[randomNumber];
 
-    console.log(randomNumber);
     document.getElementById("playerChoice").innerHTML = `Computer: <span>${computer_choice.toUpperCase()}</span>`;
     document.getElementById("computerChoice").innerHTML = `Player: <span>${input.toUpperCase()}</span>`;
-
-    console.log('input', input, 'computer-choice', computer_choice);
 
     // Show the result, and a message about the result
     // Compare the computer choice with player choice and update the scores of both of them
@@ -67,14 +64,12 @@ function clicked(input) {
             result.style.cssText = "background-color: rgb(203, 246, 203)";
             player_score++;
             document.getElementById("player_score").innerHTML = player_score;
-            console.log("PS: ", player_score);
             break;
         case 'lose':
             result.innerText = `Computer Won!`;
             result.style.cssText = "background-color: rgb(245, 192, 192)";
             computer_score++;
             document.getElementById("computer_score").innerHTML = computer_score;
-            console.log("CS: ", computer_score);
             break;
         case 'tie':
             result.innerText = "It's a tie!";
@@ -102,5 +97,6 @@ let resetScore = () => {
         document.getElementById("computer_score").innerHTML = computer_score;
         document.querySelector(".popup-message").innerHTML = "";
     }, 1500);
+    
 }
 
