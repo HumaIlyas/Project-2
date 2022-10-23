@@ -15,11 +15,13 @@ ___
     - [Surface](#surface)
 - [Features](#features)
     - [Logo and heading](#logo-and-heading)
+    - [Navigation bar](#navigation-bar)
     - [Game area](#game-area)
       - [Score area](#score-area)
       - [Choices area](#choices-area)
       - [Result and message](#result-and-message)
       - [Final popup message](final-popup-message)
+    - [Instructions](#instructions)
 - [Technologies used](#technologies-used)
 - [Testing](#testing)
     - [Code validation](#code-validation)
@@ -52,7 +54,7 @@ The main goal of the website user is:
 ### Colors
 Main colours used in the development of Rock-Paper-Scissors-Lizard-Spock:
 * font color: #226474; #722635
-* background color: #fcfafa; #ece4e5; #226474; white; rgb(203, 246, 203); rgb(245, 192, 192); rgb(208, 205, 205)
+* background color: #fcfafa; #ece4e5; #226474; white; rgb(203, 246, 203); rgb(245, 192, 192); rgb(208, 205, 205); rgba(239, 200, 200, 0.8)
 
 ### Fonts 
 * As a main font lato and as a backup font sans-serif are used for the contents of the website.
@@ -74,6 +76,18 @@ ___
 * The logo & heading clearly tells the player which game is to play.
 <div style="margin-top: 20px; margin-bottom: 20px;">
     <img src="assets/images/logo-heading.jpg" alt="Logo & heading">
+</div>
+
+## Navigation bar
+The full responsive navigation bar is featured on the two pages to allow for easy navigation from page to page across all devices.
+* Navigation bar is added above the game area to go to instructions page to see the instruction to play the game. 
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/nav-instructions.jpg" alt="Navigation for instructions">
+</div>
+
+* Navigation bar is added on the instructions page to go back to game area to play the game.
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/nav-game.jpg" alt="Navigation for game">
 </div>
 
 ## Game area
@@ -102,9 +116,16 @@ This area provides the information about the choices made by player & computer, 
 </div>
 
 ### Final popup message 
-The final popup message appears after limited number of attempts before the game is over.
+* The final popup message appears after limited number of attempts before the game is over. 
+* Final popup message shows either you or computer won with 20 scores.
 <div style="margin-top: 20px; margin-bottom: 20px;">
     <img src="assets/images/popup-message.jpg" alt="Popup message"> 
+</div>
+
+## Instructions
+This page provides the instructions to play the game.
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/instructions.jpg" alt="Instructions"> 
 </div>
 
 [Back to Table of contents](#table-of-contents)
