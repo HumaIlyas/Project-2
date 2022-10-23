@@ -37,6 +37,27 @@ body {
     color: #226474;
 }
 
+/* navigation links */
+#menu {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+  
+#menu a {
+    text-decoration: none;
+    color: #226474;
+}
+  
+#menu a:hover {
+    border-bottom: 1px solid #722635;
+    color: #722635;
+}
+  
+.active {
+    border-bottom: 1px solid #226474;
+}
+  
 /* game area */
 .game-area {
     box-sizing: border-box;
@@ -143,6 +164,31 @@ span {
     position: relative;
 }
 
+/* instructions page */
+/* instructions on instructions page */
+#instructions {
+    box-sizing: border-box;
+    background-color: rgba(239, 200, 200, 0.8);
+    width: 85%;
+    height: 75vh;
+    max-height: 600px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #722635;
+}
+
+#instructions h3 {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 1px;
+    line-height: 15px;
+    color: #226474;
+}
+
 /* For Responsive */
 
 /*
@@ -182,6 +228,11 @@ span {
     .heading {
         font-size: 1.5rem;
         line-height: 25px;
+    }
+
+    /* navigation links */
+    #menu {
+        font-size: 0.9rem;
     }
 
     /* score area */
@@ -230,6 +281,14 @@ span {
         font-size: 1.2rem;
         line-height: 45px;
     }
+
+    /* instructions page */
+    /* instructions on instructions page */
+    #instructions {
+        width: 100%;
+        height: 80vh;
+        font-size: 0.75rem;
+    }    
 }
 
 /*  
@@ -245,6 +304,11 @@ span {
     .heading {
         font-size: 1rem;
         line-height: 15px;
+    }
+
+    /* navigation links */
+    #menu {
+        font-size: 0.75rem;
     }
 
     /* game area */
@@ -296,5 +360,12 @@ span {
         width: 100%;
         font-size: 1.2rem;
         line-height: 45px;
+    }
+
+    /* instructions page */
+    /* instructions on instructions page */
+    #instructions {
+        width: 100%;
+        font-size: 0.75rem;
     }
 }
