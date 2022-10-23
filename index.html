@@ -13,13 +13,26 @@
 </head>
 
 <body>
-    <!-- logo and heading -->
-    <h1 class="heading">
-        <img class="logo" src="assets/images/logo.jpg" alt="logo"> Rock-Paper-Scissors-Lizard-Spock
-    </h1>
+
+    <!-- header -->
+    <header>
+
+        <!-- logo and heading -->
+        <h1 class="heading">
+            <img class="logo" src="assets/images/logo.jpg" alt="logo"> Rock-Paper-Scissors-Lizard-Spock
+        </h1>
+
+        <!-- navigation links -->
+        <nav id="menu">
+            <a href="instructions.html" class="active">
+                Instructions to play the game
+            </a>
+        </nav>
+
+    </header>
 
     <!-- game area -->
-    <div class="game-area">
+    <section class="game-area">
 
         <!-- score area -->
         <div class="score-area">
@@ -31,8 +44,8 @@
         <div class="choices-area">
             <div class="move">
                 <p>Select the button to start your move</p>
-                <p>Game over: 20 scores</p>
             </div>
+
             <div>
                 <button title="Rock" onclick="clicked('Rock')"><i class="fa fa-hand-rock-o"></i></button>
                 <button title="Paper" onclick="clicked('Paper')"><i class="fa fa-hand-paper-o"></i></button>
@@ -40,6 +53,7 @@
                 <button title="Lizard" onclick="clicked('Lizard')"><i class="fa fa-hand-lizard-o"></i></button>
                 <button title="Spock" onclick="clicked('Spock')"><i class="fa fa-hand-spock-o"></i></button>
             </div>
+
         </div>
 
         <!-- result and messages area -->
@@ -54,7 +68,7 @@
             <p></p>
         </div>
 
-    </div>
+    </section>
 
     <script src="assets/js/script.js"></script>
 
