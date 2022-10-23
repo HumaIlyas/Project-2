@@ -310,12 +310,13 @@ span {
     /* navigation links */
     #menu {
         font-size: 0.75rem;
-        line-height: 10px;
+        line-height: 17px;
     }
 
     /* game area */
     .game-area {
         width: 100%;
+        height: 70vh;
     }
 
     /* score area */
@@ -368,6 +369,7 @@ span {
     /* instructions on instructions page */
     #instructions {
         width: 100%;
+        height: 65vh;
         font-size: 0.7rem;
     }
 }
