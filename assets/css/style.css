@@ -4,11 +4,6 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@500&family=Oswald:wght@400&display=swap");
 
 /* body */
@@ -191,6 +186,17 @@ span {
 
 /* For Responsive */
 
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    /* game area */
+    .game-area {
+        height: 78vh;
+    }
+}
+
 /*
 ##Device = Tablets, Ipads (portrait)
 ##Screen = B/w 768px to 1024px
@@ -201,6 +207,11 @@ span {
   ##Screen = B/w 768px to 1024px
 */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* game area */
+    .game-area {
+        height: 78vh;
+    }
+
     /* choices area */
     .choices-area button {
         height: 5.5rem;
