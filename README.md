@@ -45,7 +45,7 @@ The main goal of the website user is:
 * To play an online game that has elements of chance.
 
 ## Structure of the website
-* The design of the website is user-friendy as this is responsive on all type of devices: desktop, laptops, tablets, ipads and mobiles.
+* The design of the website is user-friendy as this is responsive on all type of devices: desktop, laptops, tablets, ipads, and mobiles.
 * On all the above mentioned devices players can have a fantastic experience. 
 * All parts of the website are designed to achieve maximum player satisfaction.
 
@@ -58,7 +58,7 @@ Main colours used in the development of Rock-Paper-Scissors-Lizard-Spock:
 
 ### Fonts 
 * As a main font lato and as a backup font sans-serif are used for the contents of the website.
-* As a main font Oswald and as a backup font sans-serif are used for the heading of the website.
+* As a main font Oswald and as a backup font sans-serif are used for the headings of the website.
 
 ### Images
 * Images are taken from [Google Images](https://images.google.nl/), which is credited in the [credits](#credits) section.
@@ -110,14 +110,14 @@ This area will allow the player to select the icons of rock, paper, scissors, li
 </div>
 
 ### Result and message
-This area provides the information about the choices made by player & computer, as well as the result of the current attempt.
+This area provides the information about the choices made by player & computer, as well as the result of the current attempt to show either player or computer won or it's a tie.
 <div style="margin-top: 20px; margin-bottom: 20px;">
     <img src="assets/images/result-message.jpg" alt="Result & message">
 </div>
 
 ### Final popup message 
 * The final popup message appears after limited number of attempts before the game is over. 
-* Final popup message shows either you or computer won with 20 scores.
+* The final popup message shows either you or computer won with 20 scores.
 <div style="margin-top: 20px; margin-bottom: 20px;">
     <img src="assets/images/popup-message.jpg" alt="Popup message"> 
 </div>
@@ -184,13 +184,13 @@ The website was tested across multiple virtual mobile devices and browsers.
 * A couple of changes were made to improve the performance.
 
 ### Final results
-* The colors and fonts chosen are easy to read and accessible on desktop. 
-<div style="margin-top: 20px; margin-bottom: 40px;">
+* The colors and fonts chosen are easy to read and accessible on desktop.
+<div style="margin-top: 20px; margin-bottom: 20px;">
     <img src="assets/images/accessibility-desktop.jpg" alt="Accessibility on desktop">
 </div>
 
 * The colors and fonts chosen are easy to read and accessible on mobile.
-<div style="margin-top: 40px; margin-bottom: 20px;">
+<div style="margin-top: 20px; margin-bottom: 20px;">
     <img src="assets/images/accessibility-mobile.jpg" alt="Accessibility on mobile">
 </div>
 
